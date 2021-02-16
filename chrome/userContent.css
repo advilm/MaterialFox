@@ -1,0 +1,32 @@
+@-moz-document url("about:newtab") {  
+    body {
+        --newtab-element-hover-color: #0078d7 !important;
+        --newtab-border-secondary-color: #505457 !important;
+        --newtab-search-dropdown-header-color: #3c4044 !important;
+        --newtab-search-dropdown-color: #3c4044 !important;
+        --newtab-background-color: #090b10 !important;
+        --newtab-textbox-background-color: #264866 !important;
+        --newtab-text-primary-color: #43c2da !important;
+        --newtab-search-wordmark-color: var(--newtab-text-primary-color) !important;
+        --newtab-search-icon-color: var(--newtab-text-primary-color) !important;
+    }
+
+    input[type="text"], input[type="search"] {
+        border-radius: 50px !important;
+    }
+
+    .contentSearchSuggestionTable {
+        background-color: var(--newtab-textbox-background-color) !important;
+        border-radius: 8px;
+    }
+
+    .SnippetBaseContainer {
+        background-color: var(--newtab-background-color) !important;
+        box-shadow: none !important;
+    }
+
+    .SnippetBaseContainer .blockButton {
+        opacity: 1 !important;
+        fill: var(--newtab-text-primary-color) !important;
+    }
+}
