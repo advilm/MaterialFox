@@ -10,6 +10,11 @@
         --newtab-search-wordmark-color: var(--newtab-text-primary-color) !important;
         --newtab-search-icon-color: var(--newtab-text-primary-color) !important;
     }
+    
+    .search-wrapper .logo-and-wordmark .wordmark {
+	background-size: 200px !important;
+        width: 200px !important;
+    }
 
     input[type="text"], input[type="search"] {
         border-radius: 50px !important;
